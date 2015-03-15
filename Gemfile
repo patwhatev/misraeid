@@ -10,8 +10,8 @@ gem 'bootstrap-sass',       '3.2.0.0'
 group :development do
   gem 'taps'
   gem 'rvm'
+  gem 'sqlite3'
 end
-gem 'sqlite3'
 gem 'pg'
 gem 'rails_12factor'
 # Use SCSS for stylesheets
