@@ -1,2 +1,20 @@
-<h1>StaticPages#oc_blog</h1>
-<p>Find me in app/views/static_pages/oc_blog.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Nikki Mirsaeid</title>
+  </head>
+  <body>
+    <h1>Testing</h1>
+    <p>
+     This shit is tight
+    </p>
+    <footer class=""navbar navbar-inverse navbar-bottom" style="padding:-10px 100% 120px 0">
+  <%= yield(:footer) %>
+    <h2>CONTRIBUTE TO THE OPENING CEREMONY BLOG</h2>
+    </br>
+    <h2><b>Link:</h2><a href="http://www.openingceremony.us">OPENINGCEREMONY.US</a>
+    
+</footer>
+  </body>
+</html>

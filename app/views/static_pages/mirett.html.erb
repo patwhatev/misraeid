@@ -1,2 +1,29 @@
-<h1>StaticPages#mirett</h1>
-<p>Find me in app/views/static_pages/mirett.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Nikki Mirsaeid</title>
+  </head>
+  <body>
+    <h1>Testing</h1>
+    <p>
+     This shit is tight
+    </p>
+  <footer class=""navbar navbar-inverse navbar-bottom" style="padding:-10px 100% 120px 0">
+  <%= yield(:footer) %>
+   <div class="gradient-bottom" style="padding:-10px 100% 120px 100%">
+        <h1 class="invis"> a</h1>
+      </div>
+    <h2>Mir Ett is a handcrafted accessories collection by the NYC based design duo Hannah Jewett and Nikki Mirsaeid. Residing in the intersection between art and function, Mirett finds luxury through the elevation of humble materials
+    </h2>
+    </br>
+    <h2><b>Design Direction:</b> Nikki Mirsaeid & Hannah Jewett</h2>
+    </br>
+    <h2><b>Collaborators:</b> Photography by Christine Hanh</h2>
+    </br>
+    <h2><b>Link:</h2><a href="http://www.mirett.com">mirett.com</a>
+    </br>
+    
+</footer>
+</body>
+</html>

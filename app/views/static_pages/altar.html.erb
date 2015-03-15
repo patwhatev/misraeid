@@ -1,2 +1,37 @@
-<h1>StaticPages#altar</h1>
-<p>Find me in app/views/static_pages/altar.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Nikki Mirsaeid</title>
+  </head>
+  <body>
+    <h1>Testing</h1>
+    <p>
+     This shit is tight
+    </p>
+  </body>
+   <footer class=""navbar navbar-inverse navbar-bottom" style="padding:-10px 100% 120px 0">
+  <%= yield(:footer) %>
+    <h2>Altar Exhibitions is a non-stationary curatorial project by Nikki Mirsaeid and Taj Robinson; funded by Southern Exposure Alternative Exposure grant. 
+    The project seeks to locate unconventional spaces as exhibition venues.
+    Place such as, but not limited to, an Episcopal church, a vacant gas 
+    station, an abandoned storefront, and so on. They cultivated a community
+    of artists that go beyond the confines of the gallery environment and 
+    activate unrealized territory. Altar Exhibitions insists on 
+    reappropriating space--making theretofore inaccessible space 
+    reachable. Altar Exhibitions are never contained between four 
+    white walls. Instead, their locales are fundamental lenses for 
+    reading and connecting to objects, installations, and performances. </h2>
+    </br>
+    <h2><b>Collabertrator:</b> Taj Robinson</h2>
+    </br>
+    <h2><b>Artists:</b> Johnny Abrahams, Facundo Arganaraz, Emily Verlo Bovino, Aaron Finnis, Bryan Morello, Kamau Patton (_TELL), Melissa Sachs, Tim Sullivan,
+    Aaron Wacks & Miquel Serra (_GALLS), Andrew Norman Wilson</h2>
+    </br>
+    <h2><b>Responsibility:</b> organize exhibition, grant writing</h2>
+    </br>
+    <h2><b>Link:<a href="http:// www.altarexhibitions.com">  altarexhibitions.com</a></h2>
+    </br>
+    <h2><b>Press:</b> SFMOMA, SFAQ</h2>
+</footer>
+</html>

@@ -1,2 +1,38 @@
-<h1>StaticPages#sherwood</h1>
-<p>Find me in app/views/static_pages/sherwood.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Nikki Mirsaeid</title>
+  </head>
+  <body>
+    <h1>Testing</h1>
+    <p>
+     This shit is tight
+    </p>
+    <footer class=""navbar navbar-inverse navbar-bottom" style="padding:-10px 100% 120px 0">
+  <%= yield(:footer) %>
+    <h2>Sherwood Gallery presents a collaborative space where artists
+    are invited to explore the cultural discourse of the Bay Area 
+    community at large, and its intersection with global contemporary 
+    art & idea trends. Through the facilitation of exhibition openings, 
+    informal panel discussions, and relational events, Sherwood’s
+    program creates an active exchange reflecting on new possibilities
+    for imagination & innovation.</br>
+    The booklets contain original work by artists in the group
+    exhibition Surface and Nothing Is True. Each artist was asked 
+    to contribute works that compliment the show in printed material. </h2>
+    </br>
+    <h2><b>Design Direction:</b> Nikki Mirsaeid</h2>
+    </br>
+    <h2><b>Format:</b> Booklet, 8.5 x 11”</h2>
+    </br>
+    <h2><b>Collaborators:</b> Luca Antonucci, Facundo Arganaraz, Joshua Churchill,
+    Tyrone Davies, Jenny O’Dell, Christine M. Peterson, Cal Volner-Dison, 
+    Copla Press</h2>
+    </br>
+    <h2><b>Link:</h2><a href="http://www.sherwoodgallerysf.com">sherwoodgallerysf.com</a>
+    </br>
+    
+</footer>
+  </body>
+</html>

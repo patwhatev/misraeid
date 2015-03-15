@@ -1,0 +1,173 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+/* cursor */
+a {
+   cursor: url(content/CURSOR/cursor-01.png), auto;
+}
+
+/* nav title */
+
+#logo-small {
+   display:none;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 2.0em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* header */
+
+#head{
+   background-color: black;
+   padding-bottom: 00px;
+   margin-bottom: -10px;
+   height: 70px;
+}
+
+
+/* top gradient */
+
+.gradient-top{
+ background-image:
+    linear-gradient(
+      black, #fff
+    );
+    padding-bottom: 25px;
+    margin-top: 8px;
+    z-index: 0;
+    
+}
+
+.invis{ 
+ color: transparent; 
+}
+
+/* imagery */
+
+
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+
+
+/* main */
+body {
+  padding-top: 80px;
+  cursor: url(content/CURSOR/cursor-02.png), auto;
+}
+
+
+/* index  */
+
+.index-title{
+  font-size: 52px;
+  position: relative;
+  text-align: right;
+  padding-top: 900px;
+  
+  
+}
+
+.index-breaks{
+  padding-top: 900px;
+}
+
+
+/* bottom gradient */
+
+
+.gradient-bottom{
+  background-size: 100%;
+  padding-top: 30px;
+ background-image:
+    linear-gradient(
+      white, black
+    );
+    min-width: 100%;
+}
+  
+
+.invis{ 
+ color: transparent; 
+}
+
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: -7px;
+  border-top: 1px solid #eaeaea;
+  background-color: #000;
+  min-width: 100%;
+  color: #777;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #777;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: left;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}

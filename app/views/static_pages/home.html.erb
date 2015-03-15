@@ -1,2 +1,37 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head profile="http://www.w3.org/2005/10/profile">
+    <title><%= yield(:title) %> | Nikki Mirsaeid</title>
+  </head>
+  <body>
+  
+
+  </br class="index-breaks">
+
+ 
+  <h2 class="index-title">MIRETT</h2>
+  </br class="index-breaks">
+  <h2 class="index-title">SUMZINE</h2>
+  </br class="index-breaks">
+  <h2 class="index-title">FWD</h2>
+  </br class="index-breaks">
+  <h2 class="index-title">SHERWOOD</h2>
+  </br class="index-breaks">
+  <h2 class="index-title">ALTAR</h2>
+  </br class="index-breaks">
+  <h2 class="index-title">OC BLOG</h2>
+
+ 
+
+<footer class=""navbar navbar-inverse navbar-bottom" style="padding:-10px 100% 120px 100%">
+  <%= yield(:footer) %>
+  <div class="gradient-bottom" style="padding:-10px 100% 120px 100%">
+        <h1 class="invis"> a</h1>
+      </div>
+    <h1>YOU CAN REACH ME AT</h1>
+    </br>
+    <h2><a href="mailto:nikki.m.said@gmail.com">  nikki.m.said@gmail.com</a></h2>
+</footer>
+  </body>
+</html>

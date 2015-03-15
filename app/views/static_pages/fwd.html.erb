@@ -1,2 +1,30 @@
-<h1>StaticPages#fwd</h1>
-<p>Find me in app/views/static_pages/fwd.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Nikki Mirsaeid</title>
+  </head>
+  <body>
+    <h1>Testing</h1>
+    <p>
+     This shit is tight
+    </p>
+    <footer class=""navbar navbar-inverse navbar-bottom" style="padding:-10px 100% 120px 0">
+  <%= yield(:footer) %>
+    <h2>FWD is a email residency launching in 2016 by Liane Al-Ghusain 
+    and Nikki Mirsaeid. As a subscriber, every month, you will be treated
+    to different contemporary artists’ newsletters which may consist of,
+    but is not limited to, original work, breakfast, wish lists, holiday
+    greetings and dream sequences. 
+    </h2>
+    </br>
+    <h2><b>Director:</b> Liane Al-Ghusain</h2>
+    </br>
+    <h2><b>Design Direction:</b> Nikki Mirsaeid </h2>
+    </br>
+    <h2><b>Link:</h2><a href="http://www.fwdfwdfwdfwd.com">fwdfwdfwdfwd.com</a>
+    </br>
+    
+</footer>
+</body>
+</html>

@@ -1,2 +1,40 @@
-<h1>StaticPages#sumzine</h1>
-<p>Find me in app/views/static_pages/sumzine.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Nikki Mirsaeid</title>
+  </head>
+  <body>
+    <h1>Testing</h1>
+    <p>
+     This shit is tight
+    </p>
+    <footer class=""navbar navbar-inverse navbar-bottom" style="padding:-10px 100% 120px 0">
+  <%= yield(:footer) %>
+    <h2>Sumzine is a biannual slow-fashion zine based out of NYC. 
+    We carry the torch of Dame Westwood, 
+    "Buy less, choose well, make it last!"</br>Not your typical
+    sustainability-loving, fashion editorial magazine. We wanted
+    to put aside that "go green hippiness" and bring in the cool,
+    New York City downtown chic vibes. </br>
+The design of Sumzine is vibrant and bold, with a mixture of earthy
+feels. Since Sumzine's theme changes with every issue, we wanted to
+keep the branding and design simple, clean, constant and versatile. 
+    </h2>
+    </br>
+    <h2><b>Editor in Chief:</b> Jamie Ortega</h2>
+    </br>
+    <h2><b>Design Direction:</b> Nikki Mirsaeid</h2>
+    </br>
+    <h2><b>Collaborators:</b> Features include interviews with
+    Brian Procell, Osei-Duro, #jacques-Elliott, and XXBC.
+    Essays by Rachel Hodin and Jamie Ortega. Photography from
+    Adam Katz Sinding, Nekole Kemelle, Shanita Sims, Koa Pennock,
+    Ruvan Wijesooriya, and James Parker. Illustrations by Jonah Leslie.</h2>
+    </br>
+    <h2><b>Link:</h2><a href="NEEDSLINK.COM">NEEDSLINK.com</a>
+    </br>
+    
+</footer>
+  </body>
+</html>
