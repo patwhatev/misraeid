@@ -2,19 +2,30 @@
     "ace": {
         "@guessTabSize": "true",
         "@newLineMode": "unix",
+<<<<<<< HEAD
         "@tabSize": "4",
+=======
+        "@tabSize": 2,
+>>>>>>> 59cf4f3274673ce5d7bc581a45674611e1690211
         "@useSoftTabs": "true"
     },
     "build": {
         "@builder": "auto",
         "@path": "/.c9/builders",
+<<<<<<< HEAD
         "@saveall": true
+=======
+        "@saveall": "true"
+>>>>>>> 59cf4f3274673ce5d7bc581a45674611e1690211
     },
     "find.nak": {
         "@searchLimit": 100
     },
     "language": {
+<<<<<<< HEAD
         "@eslintrc": "true",
+=======
+>>>>>>> 59cf4f3274673ce5d7bc581a45674611e1690211
         "@instanceHighlight": "true",
         "@semi": "true",
         "@undeclaredVars": "true",
@@ -25,6 +36,7 @@
         "@path": "/.c9/runners",
         "configs": {
             "@inited": "true",
+<<<<<<< HEAD
             "json()": {
                 "Ruby on Rails": {
                     "command": "",
@@ -33,6 +45,9 @@
                     "runner": "Ruby on Rails (Rails 4.0 + Ruby 2.1)"
                 }
             }
+=======
+            "json()": {}
+>>>>>>> 59cf4f3274673ce5d7bc581a45674611e1690211
         }
     },
     "share": {
